@@ -92,21 +92,21 @@ header ul {
   color: gray;
 }
 
-.cv-download-link {
+.button {
   display: inline-block;
   border: 2px solid #dc143c;
   color: black;
   font-weight: bold;
   text-decoration: none;
   padding: 10px 20px;
-  margin: 20px 0;
+  margin: 20px 10px 20px 0px;
   border-radius: 10px;
   transition: background-color 0.5s, color 0.5s;
   box-shadow: 0 0 20px grey;
 }
 
-.cv-download-link:hover,
-.cv-download-link:focus {
+.button:hover,
+.button:focus {
   background-color: #dc143c;
   border: 2px solid #dc143c;
   color: white;
@@ -120,4 +120,18 @@ header ul {
   max-width: 1000px;
   margin: 0 auto;
   border-radius: 15px;
+}
+
+h2,
+p,
+ul {
+  margin: 10px 5px 5px 5px;
+}
+
+main li {
+  margin: 5px 10px 5px 0px;
+}
+
+section {
+  padding: 5px 50px;
 }
